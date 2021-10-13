@@ -1,0 +1,38 @@
+#modulo01 #C08A02
+
+Negrito e Itálico do jeito certo 
+
+Tópicos deste vídeo:
+00:00 - Capítulo 08, aula 02
+00:15 - Formatação de textos em HTML5
+01:00 - Cursos inéditos
+02:11 - Criando um novo exercício
+03:07 - Negrito normal (sem semântica)
+04:27 - Negrito semântico (destaque)
+05:15 - Itálico normal (sem semântica)
+05:30 - Envelopamento com abreviatura
+07:23 - Itálico semântico (ênfase)
+09:25 - Semântica ou forma?
+10:41 - Três pedidos especiais
+11:22 - Mais formatações extras
+
+
+#modulo01 #C08A03
+
+Formatações adicionais em HTML 
+
+Tópicos deste vídeo:
+00:00 - Capítulo 08, aula 03
+00:15 - Formatações especiais
+00:42 - Cursos grátis para entrar no mercado 
+01:40 - Continuando o exercício
+02:00 - Usando um marca texto (mark)
+04:00 - Mudando a cor de um marcador
+05:44 - Mudando a cor de todos os marcadores
+06:44 - Texto grande e pequeno
+07:53 - Por que o big se tornou obsoleto?
+09:30 - Textos deletado (del) e inserido (ins)
+10:47 - Diferença entre as tags ins e u
+11:37 - Sobrescrito (sup) e subscrito (sub)
+14:05 - Ajude a divulgar o curso
+14:41 - Ainda não terminou

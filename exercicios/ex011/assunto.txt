@@ -1,0 +1,53 @@
+#modulo01 #C11A01
+
+Imagens Dinâmicas 
+
+Tópicos deste vídeo:
+00:00 - Capítulo 11, aula 01
+00:17 - Usando múltiplas mídias
+03:09 - Curso de produção de vídeos
+04:39 - Criando imagens de tamanhos diferentes 
+11:39 - Criando um novo exercício
+12:24 - Exportando as imagens do projeto
+14:09 - Ajude a divulgar nosso curso
+15:37 - Encerramento
+
+#modulo01 #C11A02
+
+Imagens que se adaptam sozinhas
+
+Tópicos deste vídeo:
+00:00 - Capítulo 11, aula 02
+00:21 - A importância do tamanho das imagens
+01:07 - Uma história de mudança de vida
+02:14 - Imagens que criamos
+03:09 - Criando o código básico HTML5
+03:46 - A nova tag picture
+04:41- Testando o exercício
+05:15 - O perigo do bounce rate
+05:59 - Criando vários source
+09:37 - Ajude o projeto sendo um apoiador
+10:21 - CUIDADO: Invertendo os sources
+12:16 - Várias versões da mesma imagem
+
+#C11A03
+
+Colocando áudio no seu site
+
+Tópicos deste vídeo:
+00:00 - Capítulo 11, aula 03
+00:17 - Inserindo áudio no site
+01:05 - A melhor solução de hospedagem
+02:36 - Criando um novo exercício
+03:33 - Onde conseguir áudios grátis
+05:35 - Cuidados com os áudios
+06:17 - Acompanhe nosso trabalho
+06:43 - Baixando um podcast grátis
+08:25 - Criando código HTML para áudio
+09:38 - Múltiplos formatos de áudio
+10:22 - Ganhando mais compatibilidade
+12:35 - Preload de áudio
+13:29 - Outros parâmetros
+14:12 - Áudio em looping
+14:45 - Cuidado com áudios WAV
+15:27 - Outros tipos de mídia

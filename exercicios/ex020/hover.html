@@ -1,0 +1,39 @@
+<!--Pseudo-classes em CSS - -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Hover - Criando um texto escondido - Mexendo dentro do parágrafo da div</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        div > p { /*um parágrafo que é filho da div. O símbolo > indica isso. No caso aqui só mexerá no parágrafo que está dentro da div e não no outro que está escrito "Fim do Exemplo"*/
+            display: none; /*o filho de div será escondido*/
+        }
+
+        div:hover > p { /*quando passar o mouse no parágrafo filho da div, o texto vai aparecer, cor branca fundo vermelho*/
+            display: block;
+            color: white;
+            background-color: red;
+        }
+
+        div:hover {
+            color: red; /*quando eu passar o mouse em cima da div, as letras ficarão vermelhas*/
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Hover</h1>
+    <p>Passe o mouse sobre o texto abaixo</p>
+    <div>Passe o mouse aqui
+        <p>"Esse é um texto escondido"</p>
+    </div>
+    <p>Fim do Exemplo</p>
+
+</body>
+</html>

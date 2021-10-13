@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com links - 1ª página</title>
+</head>
+<body>
+    <h1>Links Externos</h1>
+    
+    <p>Você pode acessar o meu <a href="https://gustavoguanabara.github.io/" target="_blank" rel="external">repositório público no Github </a> </p>
+    
+    <p>Você também pode acessar o meu <a href="https://youtube.com/cursoemvideo/" target="_blank" rel="external">canal gratuito no YouTube</a></p>
+    
+    
+    <h1>Links Internos</h1>
+    <p>Esta é a primeira página do site. Se vc quiser, pode acessar também a minha <a href="pg002.html" rel="next">segunda página</a></p>
+    <p>Você também pode acessar a nossa<a href="noticias/pg003.html" rel="next"> página de notícias</a></p>
+
+    <h1>Links para Download</h1>
+    <p>Para deixar algo download, usamos a tag ancora com o nome do arquvio, precisamos usar o atributo download e é importante dizer o tipo do arquivo com o atributo type</p>
+    <ul>
+        <li><a href="livro/meulivro.pdf" download="meulivro.pdf" type="application/pdf">Baixar o livro em PDF</a></li>
+        <li><a href="livro/meulivro.zip" download="meulivro.zip" type="application/zip">Baixar o livro compactado em ZIP</a></li>
+    </ul>
+
+    
+</body>
+</html>
+
+<!--
+    - estamos vendo como criar um link clicável;
+    -links externos: ligação que leva o usuário para outro site, que não seja o site de origem.
+    -links internos/locais: faz a ligação com outra página que está dentro do nosso site. Existem dois tipos de links internos
+
+    - atributo target: define um nome ou uma palavra-chave para um contexto de navegação (ex, guia, janela). Target tem vários valores, o mais usado é _blank, que indica que ao clicar no link, o usuário será direcionado para o site em uma nova guia, mas sem fechar a que ele ja estava. Também há o valor _self, que vai abrir o link na janela atual.
+    
+    //apenas fazem parte da SEMÂNTICA e de conversar com os buscadores, NÃO com o usuário:
+    - rel next: next é um atributo que indica que o link é para a próxima parte do documento atual.
+    - rel prev: prev indica que o link é para a parte anterior do documento atual.
+    - rel external: indica que é um link para outro site, que não faz parte do site atual.
+    
+    - rel nofollow: indica que é um link para um site não endossado, como um link pago. Esse atb instrui os mecanismos de busca a não constar esse hyperlink como um ponto a mais no pagerank. Tem duas funções úteis. Sites de notícias utilizam muito esse atb para indicar ao Goggle que talvez o site que eles citaram na matéria n é confiável. Nem sempre dá tempo dos buscadores verificarem a tempo se o site citadado é verídico e se isso n for sinalizado com esse atb, pode ser um perigo. Também, geralmente os autores de sites que vendem algum produto/serviço n querem que a página de compra seja a primeira a aparecer no google, a primeira deve ser a homepage. Ao colocar nofollow o google n dará prioridade para essa página e sim a homepage. //
+
+    atributo download: é usado na tag ancora href para indicar que este arquivo é um link para download. Também se usa o atributo type com valores, para dizer ao navegador que tipo de arquivo é esse.
+
+
+
+-->

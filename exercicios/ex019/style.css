@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+body {
+    background-color: #C1CAF4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+h1 {
+    color:#14574c /*esse é o h1 base/ganérico. Mas o h1#principal o sobrepoe*/
+}
+
+h1#principal {
+    text-align: center; /*isso é um seletor personalizado*/
+    color:#6ec7d3;
+}
+
+
+.basico {
+    color: rgb(122, 182, 135);
+}
+
+.intermediario {
+    color: #ce9c5e;
+}
+
+.avançado {
+    color: rgb(214, 93, 93);
+    font-style: italic;
+}
+
+.destaque {
+    background-color: rgba(255, 145, 0, 0.432);
+}

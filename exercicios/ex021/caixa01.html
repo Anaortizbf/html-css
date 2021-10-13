@@ -1,0 +1,57 @@
+<!--Modelo de Caixas na prática (parte 1 e 2)-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    <style>
+        h1 { /*h1 é um elemento do tipo inline-level*/
+            background-color: lightgrey;
+            display: inline-block;
+            height: 300px; /*da caixa conteúdo*/
+            width: 300px;  /*da caixa conteúdo*/
+            
+            border-width: 10px;
+            border-style: dashed; 
+            border-color: darksalmon;
+
+            padding-top: 10px;
+            padding-right: 10px; /*shorthand desse bloco padding: 10px;*/
+            padding-bottom: 10px;
+            padding-left: 10px;
+
+            margin-top: 20px;
+            margin-right: 20px; /*shorthand desse bloco margin: 20px 20px 40px 20px*/
+            margin-bottom: 40px;
+            margin-left: 20px;
+
+            outline-width: 5px;
+            outline-style: dashed; /*outline: 5px dashed darkslateblue;*/
+            outline-color: darkslateblue;
+
+        }
+
+        a { /*a é um elemento do tipo inline-level*/
+            border-width: 10px;
+            border-style: solid; /*10px solid red*/
+            border-color: red;
+
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            background-color: dimgrey;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa tipo block-level</h1>
+    <p>Parágrafos também são exemplos de block-level, mas os <a href="#">links são exemplos de caixas inline-level</a>. Vamos ver como tudo isso funciona. </p>
+</body>
+</html>
+<!--lembre do sentido do relógio ao configurar propriedades como padding e margin (cima, direita, baixo esquerda)
+- nessa aula vimos muitos SHORTHANDS
+- inline level e block level
+- vimos que é possível mudar um elemento com tipo de caixa block-level para inline-level vice-versa-->

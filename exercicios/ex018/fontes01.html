@@ -1,0 +1,53 @@
+<!--Usando Google Fonts-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes com Google Fonts</title>
+    <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap'); /*essa font tem só um estilo, o Regular 400, mas há fonts que tem muitos estilos, como a Work Sans. Se vc quiser só um estilo dela, vc escolher seleciona apenas um estilo no Google Fonts, mas vc pode escolher vários estilos e selecionar, dando marior leque de opções para vc escolher na hora de formatar com ela no seu documento de texto*/
+
+        /*Em CSS tudo que começa com arroba/regra pe colocado logo abaixo da tag style no CSS incorporado, ou nas primeiras linhas de um documento CSS separado/externo. NÃO DEVEM ESTAR DENTRO DOS SELETORES (ex h1) E DECLARAÇÕES (propriedades e valores)*/
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+        @font-face {
+            font-family: 'Love' ;
+            src: url('font/love larry ttf.ttf') format('truetype');
+        
+        }
+
+        body {
+            font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            color: black;
+        }
+
+        h1 {
+            font-family: Parisienne, Arial, Helvetica, sans-serif; 
+            color: #41a199;
+            font-size: 3em; /*fonte do tamanho três vezes o padrão, que é 16px*/
+        }
+
+        h2 {
+            font-family: 'Love', Arial, Helvetica, sans-serif; 
+            color: #41a199;
+            font-size: 2em; /*fonte do tamanho duas vezes o padrão, que é 16px*/
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti minus maxime temporibus quos laborum aspernatur, fugit culpa consectetur, enim nihil quisquam corporis esse maiores voluptas alias quia, ut at accusantium!</p>
+    <h2>Subtítulo</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quam aliquid iure fuga tempora cumque assumenda nobis maiores ex, laborum illo cupiditate, accusamus nam pariatur esse nisi rem culpa! Fuga!</p>
+</body>
+</html>
+
+<!-- 
+    resumo em 22/08
+    
+    - Google fonts-->

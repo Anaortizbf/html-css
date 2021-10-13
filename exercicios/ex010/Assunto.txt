@@ -1,0 +1,51 @@
+#modulo01 #C10A01
+
+Links e Âncoras em HTML5
+
+Tópicos deste vídeo:
+00:00 - Capítulo 10, aula 01
+00:15 - Links na Web
+01:45 - A grande importância dos links
+02:42 - O que é SEO
+03:27 - Como colocar seu site no ar?
+05:00 - Criando um exercício com links
+06:08 - Criando um link externo
+07:20 - Testando o link
+08:08 - Usando o target no link
+11:21 - Seja avisando sobre vídeos novos
+12:00 - Encerramento
+
+#modulo01 #C10A02
+
+Links internos
+
+Tópicos deste vídeo:
+00:00 - Capítulo 10, aula 02
+00:14 - Links internos
+00:48 - Criação de aplicativos de celular 
+02:00 - O que é um link interno
+02:35 - Criando uma página interna
+03:12 - Criando o link interno
+04:23 - Criando um link para voltar
+06:13 - Usando o nofollow
+08:15 - Criando uma página em pasta
+09:00 - Links internos com caminhos
+10:16 - Usando target _self
+11:13 - Navegação voltando pastas
+13:07 - Quero certificados!
+13:50 - Pratique bastante
+
+#C10A03
+
+Links para download
+
+Tópicos deste vídeo:
+00:00 - Capítulo 10, aula 03
+00:15 - Links para Download
+00:53 - Cursos grátis para quem está começando
+02:16 - Criando um link para um PDF
+04:05 - Fazendo download de arquivos
+04:58 - Lista de Media Types
+06:00 - Links para arquivo ZIP
+07:21 - Ajude a gente 
+08:02 - Encerramento e desafios

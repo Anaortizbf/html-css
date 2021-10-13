@@ -1,0 +1,19 @@
+@charset "UTF-8"; /*importante para deixar o css tbm compatível com UTF8 (símbolos/acentuações...) e TUDO QUE ESTA COM ARROBA É UMA REGRA PARA A PÁGINA */
+
+body {
+    background-color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+h1{
+    color: powderblue;
+}
+
+h2{
+    color: darkblue;
+}
+
+p {
+    text-align: justify; /*deixa mais organizado os parágrafos*/
+}

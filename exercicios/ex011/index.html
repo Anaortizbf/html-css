@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML</title>
+</head>
+<body>
+
+    <h1>Imagem Dinâmica</h1>
+    <p>Tente abrir esse site com vários dispositivos diferentes, ou simplesmente aumente e diminua o tamanho do navegador</p>
+
+    <picture>
+        <source media="(max-width:750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width:1050px)" srcset="imagens/foto-m.png" type="image/png"> <!--Quando a largura máxima do dispositivo estiver em 1050px, coloque na tela a imagem m/ quando a largura da tela for menor do que 1050px, carregue a foto m-->
+        <img src="imagens/foto-g.png" alt="foto G">
+
+    </picture>
+
+    <h1>Reproduzindo Áudio Forma 1 - Arcaica</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5 </p>
+    <audio src="midia/Modern Time - An Jone.mp3" controls></audio>
+    
+    <h1>Reproduzindo Áudio Forma 2 - Melhor Forma</h1>
+    <audio preload="none" controls>
+        <source src="midia/Modern Time - An Jone.mp3" type="audio/mpeg">
+        <source src="midia/Modern Time - An Jone.ogg" type="audio/ogg">
+        <source src="midia/Modern Time - An Jone.wav" type="audio/wav">
+        <p>Infelizmente o seu navegador não consegue reproduzir áudio. <a href="midia/Modern Time - An Jone.mp3"> Clique aqui para baixar o arquivo em MP3</a></p>
+    </audio>
+</body>
+</html>
+
+<!--tag picture: tag para tratar imagens responsivas
+    tag source: especifica vários recursos de mídia para elementos de mpidia, como <picture>.
+    VALORES DE SOURCE:
+    -media: o media query, aceita qualquer mídia query válido como valor;
+    -srcset: coloca-se uma URL. É usada quando source é usada dentro de picture. Especifica a URL da imagem desejada.
+    -type: especifica o media type/tipo de mídia/MIME Type
+
+    -preload:define se o audio será pre carregado ou não antes do usuário clicar no play. O none é o mais indicado, porque assim o carregamento do site n fica pesado ao entrar no site e tbm o usuário n se incomodará.
+    -controls: parâmetro que serve para criar um player para o vídeo.
+    -src: espeficia a url do arquivo de midia.
+
+-->
